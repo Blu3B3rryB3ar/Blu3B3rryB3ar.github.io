@@ -1,0 +1,59 @@
+* {
+	font-family: 'verdana';
+}
+
+nav {
+	display: grid;
+	grid-template: 30px / 1fr 1fr 1fr;
+	background-color: #800000;
+	color: #FFF;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	z-index: 10;
+}
+
+.banner {
+	position: relative;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	background-color: #cc0000;
+	color: #000;
+	height: 100px;
+	text-align: center;
+}
+
+body {
+	background-color: #000;
+}
+
+main {
+	position: relative;
+	height: 1000px;
+	top: 130px;
+	left: 10%;
+	right: 10%;
+	width: 80%;
+	background-color: hsla(0,100%,25%,0.8);
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+main p {
+	text-align: center;
+}
+
+li {
+	text-align: center;
+}
